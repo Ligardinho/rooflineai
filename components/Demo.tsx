@@ -56,6 +56,20 @@ export default function DemoVideo() {
         autoPlay
         playsInline
         onCanPlayThrough={() => setIsLoaded(true)}
+        onEnded={() => {
+          const video = videoRef.current
+          if (!video) return
+
+          // Revert to background loop behavior
+          video.currentTime = 0
+          video.muted = true
+          video.loop = true
+          video.play().catch(() => {})
+
+          setHasUserStarted(false)
+          setIsPaused(true)
+          setShowPlayButton(true)
+            }}
       />
 
       {/* LOADER */}
