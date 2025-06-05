@@ -1,7 +1,5 @@
 import React from 'react'
 import { TbHexagon3D } from "react-icons/tb";
-import { FaArrowRight } from "react-icons/fa";
-import { PiHouseBold } from "react-icons/pi";
 
 
 

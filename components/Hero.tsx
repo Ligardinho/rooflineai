@@ -1,8 +1,4 @@
 import React from 'react'
-import { FaPlay } from 'react-icons/fa'
-import { IoIosPlayCircle } from 'react-icons/io'
-import Image from 'next/image'
-import Fye from "@/public/assets/fye.jpg"
 
 const Hero = () => {
   return (
