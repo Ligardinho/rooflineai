@@ -11,7 +11,7 @@ import { AiOutlineSafety } from "react-icons/ai";
 
 const Features = () => {
   return (
-    <div className='mt-[700px] mx-[150px] gap-12 flex flex-col mb-10'>
+    <div className='mt-[700px] mx-[150px] gap-12 flex flex-col mb-10 justify-center'>
         <div className='text-start flex flex-col gap-6'>
             <p className='text-blue-500 font-semibold text-lg'>Key Features</p>
             <h1 className='text-5xl font-semibold gap-5 flex-col flex'>
