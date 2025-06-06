@@ -47,7 +47,7 @@ export default function DemoVideo() {
       {/* VIDEO */}
       <video
         ref={videoRef}
-        src="/demo.mp4"
+        src="/mandem.mp4"
         className={`w-full h-full object-cover transition-all duration-500 ease-in-out ${
           !isPaused && hasUserStarted ? 'blur-0' : 'blur-md'
         }`}
