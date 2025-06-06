@@ -15,7 +15,9 @@ export default function Home() {
       <div className="bg-gray-50 h-[200px] top-[1200px] flex items-center justify-center absolute z-20 left-0 right-0">
         <LogoCarousel />
       </div>
+      <div className="left-0 right-0">
       <Features/>
+      </div>
     </div>
   );
 }
