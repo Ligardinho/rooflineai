@@ -22,9 +22,9 @@ const About = () => {
                         <span className='text-gray-400 flex flex-row gap-4 items-center'>technology <img src="/cube.webp" className='w-[80px] h-[80px]'/>serves humanity</span>
                     </h1>
                     <h1 className="text-5xl font-semibold text-gray-700 flex flex-col">
-                        <span className='flex flex-row gap-4 items-center'>Our platform harnesses the power of AI<img src="/donut.webp" className='w-[80px] h-[80px]'/></span>
-                        <span className='text-gray-400 flex flex-row gap-4 items-center'>to streamline processes <img src="/cube.webp" className='w-[80px] h-[80px]'/>and optimize</span>
-                        <span className='flex flex-row gap-4 text-gray-400 items-center'>outcomes.<img src="/world.webp" className='w-[80px] h-[80px]'/></span>
+                        <span className='flex flex-row gap-4 items-center'>Our platform harnesses the power of AI<img src="/spike.webp" className='w-[80px] h-[80px]'/></span>
+                        <span className='text-gray-400 flex flex-row gap-4 items-center'>to streamline processes <img src="/prism.webp" className='w-[80px] h-[80px]'/>and optimize</span>
+                        <span className='flex flex-row gap-4 text-gray-400 items-center'>outcomes.<img src="/swirl.webp" className='w-[80px] h-[80px]'/></span>
                     </h1>
                 </div>
                 <div>
