@@ -32,7 +32,7 @@ const Hero = () => {
            <p className='text-gray-500 font-medium text-center mt-[25px] text-xl'>Save time, automate tasks, close deals.</p>
            <div className='flex flex-row justify-center items-center gap-4 mt-[50px]'>
               <button className='bg-blue-500 group rounded-xl border-b-[4px] border-blue-700 text-gray-50 font-semibold py-3 px-[34px]'>
-                <a href='' className='flex flex-row gap-[10px] items-center justify-center'>Try It Yourself</a>
+                <a href='#pricing' className='flex flex-row gap-[10px] items-center justify-center'>Try It Yourself</a>
               </button>
               <button className='bg-gray-50 group rounded-xl border-2 border-b-[4px] border-gray-300 text-gray-700 font-semibold py-3 px-[34px]'>
                 <a href='' className='flex flex-row gap-[10px] items-center justify-center'>Chat with Us</a>

@@ -29,7 +29,7 @@ const About = () => {
                 </div>
                 <div>
                 <button className='bg-blue-500 group rounded-xl border-b-[4px] border-blue-700 text-gray-50 font-semibold py-3 px-[34px]'>
-                    <a href='' className='flex flex-row gap-[10px] items-center justify-center'>Try It Yourself</a>
+                    <a href='#pricing' className='flex flex-row gap-[10px] items-center justify-center'>Try It Yourself</a>
                 </button>
                 </div>
             </div>

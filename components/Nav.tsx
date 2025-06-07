@@ -14,13 +14,13 @@ const Nav = () => {
                     <span className="pointer-events-none absolute left-0 -bottom-1 h-0.5 w-full origin-center scale-x-0 transform bg-gray-700 transition-transform duration-300 group-hover:scale-x-100"></span>
                 </a>
                 <a href='#about' className="group relative">About<span className="pointer-events-none absolute left-0 -bottom-1 h-0.5 w-full origin-center scale-x-0 transform bg-gray-700 transition-transform duration-300 group-hover:scale-x-100"></span></a>
-                <a href='#pricing' className="group relative">Pricing<span className="pointer-events-none absolute left-0 -bottom-1 h-0.5 w-full origin-center scale-x-0 transform bg-gray-700 transition-transform duration-300 group-hover:scale-x-100"></span></a>
+                <a href='#pricing' className="group relative">Compare<span className="pointer-events-none absolute left-0 -bottom-1 h-0.5 w-full origin-center scale-x-0 transform bg-gray-700 transition-transform duration-300 group-hover:scale-x-100"></span></a>
                 <a href='' className="group relative">FAQS<span className="pointer-events-none absolute left-0 -bottom-1 h-0.5 w-full origin-center scale-x-0 transform bg-gray-700 transition-transform duration-300 group-hover:scale-x-100"></span></a>
                 <a href='' className="group relative">Login<span className="pointer-events-none absolute left-0 -bottom-1 h-0.5 w-full origin-center scale-x-0 transform bg-gray-700 transition-transform duration-300 group-hover:scale-x-100"></span></a>
             </div>
             <div>
                 <button className='bg-blue-500 group rounded-xl border-b-[4px] border-blue-700 text-gray-50 font-semibold py-3 px-[34px]'>
-                    <a href='' className='flex flex-row gap-[10px] items-center justify-center'>Try It Yourself</a>
+                    <a href='#pricing' className='flex flex-row gap-[10px] items-center justify-center'>Try It Yourself</a>
                 </button>
             </div>
         </div>
