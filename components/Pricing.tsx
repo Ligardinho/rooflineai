@@ -78,7 +78,7 @@ const Pricing = () => {
                     </div>
                     <h3 className="text-3xl md:text-4xl text-primary-foreground font-bold mb-[35px] text-gray-50">
                         The <br/>
-                        Roofline AI Way
+                        <span className='text-green-400 text-shadow-green-700'>Roofline AI</span> Way
                     </h3>
                     <div className='flex items-center justify-center gap-1 mb-3 text-gray-50 font-medium text-xl'>
                         Fair, Performance-Based Pricing
@@ -116,7 +116,7 @@ const Pricing = () => {
                         </ul>
                     </div>
                     <a className='mt-auto' href=''>
-                        <button className='w-full border-2 border-green-300 bg-green-100 text-green-600 font-semibold py-3.5 rounded-xl hover:bg-green-300 transition-all group shadow-lg shadow-green-700 border-b-4 flex flex-row justify-center items-center'>
+                        <button className='w-full border-2 border-green-300 bg-green-100 text-green-600 font-semibold py-3.5 rounded-xl hover:bg-green-200 transition-all group shadow-lg shadow-green-700 border-b-4 flex flex-row justify-center items-center'>
                             <span className='inline-flex items-center'>Get Started</span>
                             <span className='inline-block ml-2 group-hover:rotate-45 transition-all'><GoArrowUpRight/></span>
                         </button>
