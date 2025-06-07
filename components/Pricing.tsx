@@ -6,7 +6,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const Pricing = () => {
   return (
-    <div id='pricing' className='flex flex-col items-center '>
+    <div id='pricing' className='flex flex-col items-center mt-[100px]'>
         <div className='text-center flex flex-col gap-3'>
             <p className='text-blue-500 font-semibold'>It&apos;s Your Choice</p>
             <h1 className='text-gray-700 text-6xl font-semibold'>Two Directions</h1>
