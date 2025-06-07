@@ -3,12 +3,16 @@ import Hero from "../components/Hero";
 import DemoVideo from "../components/Demo";
 import Features from "../components/Features";
 import LogoCarousel from "@/components/LogoCarousel";
+import About from "@/components/About";
+import Pricing from "@/components/Pricing";
 
 export default function Home() {
   return (
     <div className="flex flex-col bg-gray-50">
       <Nav/>
-      <Hero/>
+      <div id="home">
+        <Hero/>
+      </div>
       <div className="">
         <DemoVideo/>
       </div>
@@ -18,6 +22,10 @@ export default function Home() {
       <div className="left-0 right-0">
       <Features/>
       </div>
+      <div id="about">
+        <About/>
+      </div>
+      <Pricing/>
     </div>
   );
 }
