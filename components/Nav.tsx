@@ -15,7 +15,7 @@ const Nav = () => {
                 </a>
                 <a href='#about' className="group relative">About<span className="pointer-events-none absolute left-0 -bottom-1 h-0.5 w-full origin-center scale-x-0 transform bg-gray-700 transition-transform duration-300 group-hover:scale-x-100"></span></a>
                 <a href='#pricing' className="group relative">Compare<span className="pointer-events-none absolute left-0 -bottom-1 h-0.5 w-full origin-center scale-x-0 transform bg-gray-700 transition-transform duration-300 group-hover:scale-x-100"></span></a>
-                <a href='' className="group relative">FAQS<span className="pointer-events-none absolute left-0 -bottom-1 h-0.5 w-full origin-center scale-x-0 transform bg-gray-700 transition-transform duration-300 group-hover:scale-x-100"></span></a>
+                <a href='#faqs' className="group relative">FAQS<span className="pointer-events-none absolute left-0 -bottom-1 h-0.5 w-full origin-center scale-x-0 transform bg-gray-700 transition-transform duration-300 group-hover:scale-x-100"></span></a>
                 <a href='' className="group relative">Login<span className="pointer-events-none absolute left-0 -bottom-1 h-0.5 w-full origin-center scale-x-0 transform bg-gray-700 transition-transform duration-300 group-hover:scale-x-100"></span></a>
             </div>
             <a href='#pricing'>

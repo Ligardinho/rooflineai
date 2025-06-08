@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
 
 @keyframes neonRotate {
   0%   { background-position: 100% 50%; }
@@ -19,11 +22,6 @@
   filter: drop-shadow(0 0 8px #39ff14)
           drop-shadow(0 0 8px #00ffff)
           drop-shadow(0 0 8px #ff00ff);
-}
-
-:root {
-  --background: #000000;
-  --foreground: #ffffff;
 }
 
 @theme inline {

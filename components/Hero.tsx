@@ -36,9 +36,11 @@ const Hero = () => {
                 <span className='flex flex-row gap-[10px] items-center justify-center'>Try It Yourself</span>
               </button>
             </a>
+            <a href='#cta'>
               <button className='bg-gray-50 group rounded-xl border-2 border-b-[4px] border-gray-300 text-gray-700 font-semibold py-3 px-[34px]'>
-                <a href='' className='flex flex-row gap-[10px] items-center justify-center'>Chat with Us</a>
+                <span className='flex flex-row gap-[10px] items-center justify-center'>Chat with Us</span>
               </button>
+            </a>
            </div>
         </div>
       </div>

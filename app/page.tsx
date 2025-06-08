@@ -5,6 +5,8 @@ import Features from "../components/Features";
 import LogoCarousel from "@/components/LogoCarousel";
 import About from "@/components/About";
 import Pricing from "@/components/Pricing";
+import FAQs from "@/components/FAQs";
+import CTA from "@/components/CTA";
 
 export default function Home() {
   return (
@@ -26,6 +28,12 @@ export default function Home() {
         <About/>
       </div>
       <Pricing/>
+      <div>
+        <FAQs/>
+      </div>
+      <div className="mb-[140px]">
+        <CTA/>
+      </div>
     </div>
   );
 }
