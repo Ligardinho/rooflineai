@@ -31,7 +31,7 @@ export default function Home() {
       <div>
         <FAQs/>
       </div>
-      <div className="mb-[140px]">
+      <div className="">
         <CTA/>
       </div>
     </div>
