@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaArrowUp } from "react-icons/fa";
+import { FaArrowUp } from "react-icons/fa6";
 
 const CTA = () => {
   return (

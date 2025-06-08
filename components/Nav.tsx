@@ -3,7 +3,7 @@ import { TbHexagon3D } from "react-icons/tb";
 
 const Nav = () => {
   return (
-        <div className='w-auto h-[70px] my-[20px] relative py-[3px} flex flex-row justify-between items-center mx-[12px] bg-inherit'>
+        <div className='w-auto h-[70px] my-[20px] relative py-[3px} flex flex-row justify-between items-center mx-[12px] bg-inherit motion-preset-slide-down'>
             <a className='text-2xl font-semibold text-gray-700 flex flex-row items-center gap-[4px] justify-center' href='#home'>
                 <span className='text-5xl'><TbHexagon3D/></span>
                 <span>roofline ai</span>
