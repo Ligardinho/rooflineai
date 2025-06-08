@@ -42,7 +42,7 @@ export default function DemoVideo() {
   }
 
   return (
-    <div className="absolute top-[680px] z-20 w-full max-w-3xl mx-auto aspect-video overflow-hidden rounded-xl shadow-lg group left-0 right-0">
+    <div className="absolute top-[680px] z-20 w-full max-w-3xl mx-auto aspect-video overflow-hidden rounded-xl shadow-lg group left-0 right-0 motion-preset-expand">
 
       {/* VIDEO */}
       <video
